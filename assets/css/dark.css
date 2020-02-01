@@ -19,7 +19,7 @@
 	}
 }
 
-body {
+body, .dark {
 	background-color: var(--site-bgcolor, #f9f9f9);
 	color: var(--site-color, #111);
 }

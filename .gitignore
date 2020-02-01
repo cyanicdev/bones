@@ -7,4 +7,5 @@ Gemfile.lock
 
 # files made locally for testing out theme:
 index.html
+index.md
 _posts/
