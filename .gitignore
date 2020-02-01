@@ -4,3 +4,6 @@
 .sass-cache
 _site
 Gemfile.lock
+
+# files made locally for testing out theme:
+index.html
