@@ -24,3 +24,7 @@ body, .dark {
 	color: var(--site-color, #111);
 }
 
+code {
+	color: var(--site-bgcolor, #f9f9f9);
+}
+
