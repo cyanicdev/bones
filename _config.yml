@@ -1,2 +1,10 @@
+title: "bones"
+
 bones:
   date_format: "%B %d, %Y"
+
+
+collections:
+  authors:
+    output: true
+

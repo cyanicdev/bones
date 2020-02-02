@@ -6,4 +6,13 @@
 	top: 0;
 	left: 0;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.site-title:link, .site-title:visited, .site-title:hover, .site-title:active {
+	text-decoration:none;
+	font-weight: 600;
+	position: relative;
+	top: 0.8rem;
+	color: inherit;
 }
