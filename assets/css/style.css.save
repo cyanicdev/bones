@@ -1,0 +1,20 @@
+.site-header {
+	padding: 0, 10%;
+	height: 5rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.site-title {
+	a,a:hover,a:click, a:visited{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+  -webkit-tap-highlight-color: white;
+}
+}
