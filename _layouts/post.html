@@ -6,11 +6,12 @@ layout: default
 <script src="{{ "/assets/js/elevator.min.js" | relative_url }}"></script>
 <link rel="stylesheet" href="{{ "/assets/css/elevator.css" | relative_url }}">
 
+<img class="post-header-img" src="{{ page.header_img | escape }}" style="padding-top: 5rem; width: 100%; height: 30rem; object-fit: cover;">
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <img class="post-header-img" src="{{ page.header_img | escape }}">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline" style="padding-top: 3.5rem;">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
