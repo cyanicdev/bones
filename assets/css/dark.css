@@ -10,6 +10,8 @@
 		--site-bgcolor: #1b1b1b;
 		--site-color: #eee;
 	}
+	
+	code { 	background: black; }
 }
 
 @media (prefers-color-scheme: light) {
