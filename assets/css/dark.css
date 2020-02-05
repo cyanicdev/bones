@@ -11,7 +11,10 @@
 		--site-color: #eee;
 	}
 	
-	code { 	background: black; }
+	code { 	
+		background:#0e0e0e; 
+		border: 1px solid#1e1e1e; 
+	}
 }
 
 @media (prefers-color-scheme: light) {
