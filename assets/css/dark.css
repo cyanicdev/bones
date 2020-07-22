@@ -1,32 +1,32 @@
 @media (prefers-color-scheme: no-preference) {
 	:root {
 		--site-bgcolor: #f9f9f9;
-		--site-color: #111;
+		--site-color: #000c07;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--site-bgcolor: #1b1b1b;
+		--site-bgcolor: rgb(16, 20, 23);
 		--site-color: #eee;
 	}
 	
 	code { 	
-		background:#0e0e0e; 
-		border: 1px solid#1e1e1e; 
+		background:#000c07;
+		border: 1px solid #0e0e0e; 
 	}
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
 		--site-bgcolor: #f9f9f9;
-		--site-color: #111;
+		--site-color: rgb(16, 20, 23)
 	}
 }
 
 body, .dark {
 	background-color: var(--site-bgcolor, #f9f9f9);
-	color: var(--site-color, #111);
-	fill: var(--site-color, #111);
+	color: var(--site-color, rgb(16, 20, 23));
+	fill: var(--site-color, rgb(16, 20, 23));
 }
 
