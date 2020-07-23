@@ -6,16 +6,44 @@
 	left: -25px;
 	text-align: right;
 	z-index: 1000;
+	font-size: 12px;
+
 }
 
 .site-title:link, .site-title:visited, .site-title:hover, .site-title:active {
 	text-decoration: none;
 	text-transform: uppercase;
 	position: relative;
-	top: 2rem;
+	top: 2.5rem;
 	color: inherit;
+}
+
+.post-meta {
+	color: rgb(97 97 103);
+	margin-bottom: 60px;
 }
 
 img[src=""] {
     display: none;
+}
+
+h2 {
+	margin-top: 40px !important;
+	text-transform: uppercase !important;
+    font-size: 1.4rem !important;
+    letter-spacing: .2rem !important;
+	font-weight: 600 !important;
+	margin-bottom: 18px !important;
+}
+
+footer {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	color: rgb(97 97 103);
+}
+
+footer a:link, footer a:visited {
+	color: rgb(97 97 103) !important;
 }
