@@ -51,6 +51,7 @@ To add a custom directory to your theme-gem, please edit the regexp in `bones.ge
 Bones is built on the amazing work of many people, including (but not limited too):
 - Dave Gamache (Skeleton, what this theme is based on!)
 - Nicolas Gallagher (normalize.css)
+- Christoph Grabo (syntax-dark.css, taken from pygments-monokai.css)
 
 ## License
 

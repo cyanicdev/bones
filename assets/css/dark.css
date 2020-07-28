@@ -1,3 +1,4 @@
+
 @media (prefers-color-scheme: no-preference) {
 	:root {
 		--site-bgcolor: #f9f9f9;
@@ -9,7 +10,9 @@
 	:root {
 		--site-bgcolor: rgb(16, 20, 23);
 		--site-color: #eee;
+		--syntax-highlight-dark: ;
 	}
+
 	
 	code { 	
 		background:#000c07;
