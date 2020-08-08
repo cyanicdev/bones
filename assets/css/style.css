@@ -18,6 +18,17 @@
 	color: inherit;
 }
 
+.dark-mode-toggle {
+	border: none !important;
+	height: auto !important;
+	margin-bottom: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 40px !important;
+	position: relative;
+	top: 3rem;
+}
+
+
 .post-meta {
 	color: rgb(97 97 103);
 	margin-bottom: 60px;
