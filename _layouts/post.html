@@ -26,7 +26,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ site.data.authors[page.author].name }}</span></span>
       {%- endif -%}
-      {%- if page.author -%}
+      {%- if page.authors -%}
         • {% for author in page.authors %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ site.data.authors[author].name }}</span></span>
