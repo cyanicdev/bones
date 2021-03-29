@@ -32,7 +32,11 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ site.data.authors[author].name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
+    {%- if page.description -%}
+        <p><em>{{ page.description }}</em></p>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
