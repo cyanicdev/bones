@@ -33,10 +33,10 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
+      {%- if page.description -%}
+          <p><em>{{ page.description }}</em></p>
+      {%- endif -%}
     </p>
-    {%- if page.description -%}
-        <p><em>{{ page.description }}</em></p>
-    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
