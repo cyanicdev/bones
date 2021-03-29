@@ -21,7 +21,7 @@ layout: default
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <h3 class="post-list-heading">{{ page.list_title }}</h3>
     {%- endif -%}
     <div class="post-list">
       {%- assign date_format = site.bones.date_format | default: "%b %-d, %Y" -%}

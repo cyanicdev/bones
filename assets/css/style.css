@@ -34,8 +34,21 @@
 	margin-bottom: 60px;
 }
 
+.post-link {
+	text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+	width: 100%;
+}
+
 img[src=""] {
     display: none;
+}
+
+code {
+	overflow-x: auto;
 }
 
 h2 {
