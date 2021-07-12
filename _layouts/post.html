@@ -11,7 +11,7 @@ layout: default
 
   <header class="post-header">
     <h3 class="post-title p-name" itemprop="name headline" style="padding-top: 3.5rem; font-weight: 600;">{{ page.title | escape }}</h3>
-    <p class="post-meta">
+    <span class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
@@ -22,9 +22,11 @@ layout: default
           {{ page.modified_date | date: date_format }}
         </time>
       {%- endif -%}
-      {%- if page.author -%}
+      {% assign author = site.authors | where: 'name', page.author | first %}
+      {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ site.data.authors[page.author].name }}</span></span>
+            <span class="p-author h-card" itemprop="name">{{ author.display_name }}</span>
+          </span>
       {%- endif -%}
       {%- if page.authors -%}
         • {% for author in page.authors %}
@@ -34,9 +36,9 @@ layout: default
         {% endfor %}
       {%- endif -%}
       {%- if page.description -%}
-          <p><em>{{ page.description }}</em></p>
+          <em>{{ page.description }}</em>
       {%- endif -%}
-    </p>
+    </span>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
